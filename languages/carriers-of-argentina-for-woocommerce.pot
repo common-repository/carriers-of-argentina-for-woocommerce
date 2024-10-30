@@ -1,0 +1,1235 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Carriers of Argentina for WooCommerce\n"
+"POT-Creation-Date: 2024-04-15 01:41-0400\n"
+"PO-Revision-Date: 2023-03-27 12:56-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-wc-kshippingargentina.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. translators: %s Version of WooCommerce.
+#: class-wc-kshippingargentina.php:151
+#, php-format
+msgid ""
+"WooCommerce Shipping Argentina depends on the last version of %s to work!"
+msgstr ""
+
+#: class-wc-kshippingargentina.php:151
+msgid "WooCommerce"
+msgstr ""
+
+#: functions-boxes.php:15
+msgid "Shipping Boxes"
+msgstr ""
+
+#: functions-boxes.php:16
+msgid "Shipping Box"
+msgstr ""
+
+#: functions-boxes.php:17
+msgctxt "admin menu"
+msgid "Shipping Boxes"
+msgstr ""
+
+#: functions-boxes.php:18
+msgctxt "admin bar"
+msgid "Shipping Boxes"
+msgstr ""
+
+#: functions-boxes.php:19
+msgctxt "add new"
+msgid "Add Box"
+msgstr ""
+
+#: functions-boxes.php:20
+msgid "Add Box"
+msgstr ""
+
+#: functions-boxes.php:21
+msgid "New Box"
+msgstr ""
+
+#: functions-boxes.php:22
+msgid "Edit Box"
+msgstr ""
+
+#: functions-boxes.php:23
+msgid "View Box"
+msgstr ""
+
+#: functions-boxes.php:24
+msgid "All Boxes"
+msgstr ""
+
+#: functions-boxes.php:25
+msgid "Search Box"
+msgstr ""
+
+#: functions-boxes.php:26
+msgid "No box found."
+msgstr ""
+
+#: functions-boxes.php:172 functions-boxes.php:305
+msgid "Dimensions"
+msgstr ""
+
+#: functions-boxes.php:188
+msgid "Width (In CM)"
+msgstr ""
+
+#: functions-boxes.php:192
+msgid "Height (In CM)"
+msgstr ""
+
+#: functions-boxes.php:196
+msgid "Depth (In CM)"
+msgstr ""
+
+#: functions-boxes.php:200 functions-boxes.php:215
+msgid "Max weight (In KG)"
+msgstr ""
+
+#: functions-boxes.php:214 templates/order.tpl.php:235
+msgid "Dimensions (In CM)"
+msgstr ""
+
+#: functions-boxes.php:282
+msgid "Send with own label"
+msgstr ""
+
+#: functions-boxes.php:283
+msgid "This product and its extra packages must have its own shipping label."
+msgstr ""
+
+#: functions-boxes.php:291
+msgid "Extra Packages"
+msgstr ""
+
+#: functions-boxes.php:292
+msgid "Add Extra Package"
+msgstr ""
+
+#: functions-boxes.php:301
+msgid "Weight"
+msgstr ""
+
+#: functions-boxes.php:313
+msgid "Remove Extra Package"
+msgstr ""
+
+#: functions-labels.php:14
+msgid "Data of the Argentine carrier"
+msgstr ""
+
+#: functions-labels.php:31
+msgid "You must select at least one order"
+msgstr ""
+
+#: functions-labels.php:37
+msgid "Cargando..."
+msgstr ""
+
+#: functions-labels.php:39 functions-labels.php:56 functions-labels.php:72
+#: templates/order.tpl.php:276 templates/order.tpl.php:278
+msgid "Generate Label"
+msgstr ""
+
+#: functions-labels.php:58
+msgid "Internal server error"
+msgstr ""
+
+#: functions-labels.php:97
+msgid "The order could not be found"
+msgstr ""
+
+#: functions-labels.php:142
+msgid "Invalid tracking codes"
+msgstr ""
+
+#: functions-labels.php:157
+msgid "This order already has tracking codes assigned"
+msgstr ""
+
+#: functions-labels.php:215
+msgid "Invalid service type."
+msgstr ""
+
+#: functions-labels.php:267
+msgid ""
+"The label for this order could not be generated, you can verify what happens "
+"from the plugin log if you have it active in the configuration."
+msgstr ""
+
+#: functions-labels.php:297
+msgid "Invalid Status:"
+msgstr ""
+
+#: functions-labels.php:310
+msgid "Shipping instance not exists."
+msgstr ""
+
+#: functions-labels.php:332
+msgid "Shipping type not found:"
+msgstr ""
+
+#. translators: %s => Tracking code.
+#: functions-labels.php:358 functions-labels.php:385 functions-labels.php:406
+#: functions-labels.php:433 functions-labels.php:454 functions-labels.php:481
+#, php-format
+msgid ""
+"Label %s generated, but the pdf was impossible to get because of an error in "
+"the service provider."
+msgstr ""
+
+#: functions-labels.php:591
+msgid "The client asked that it not be sent by an Argentine carrier."
+msgstr ""
+
+#: functions-labels.php:601
+msgid "This carrier not is supported."
+msgstr ""
+
+#: functions-labels.php:607
+msgid "Invalid status, payment is not completed."
+msgstr ""
+
+#: functions-labels.php:613
+msgid "Current tracking code:"
+msgstr ""
+
+#: functions-labels.php:642
+msgid "Datos Correo Argentino"
+msgstr ""
+
+#: functions-labels.php:928 functions-labels.php:934 functions-labels.php:936
+msgid "Error generating OCA order"
+msgstr ""
+
+#: functions-labels.php:959
+msgid ""
+"An error occurred connecting to OCA, try again later, if the error persists "
+"you should check the plugin logs with technical support."
+msgstr ""
+
+#: functions-labels.php:1099
+msgid "Andreani return with Timeout"
+msgstr ""
+
+#: functions.php:15 functions.php:27
+msgid "Shipment Arrival"
+msgstr ""
+
+#: functions.php:16 functions.php:36
+msgid "Shipment in Transit"
+msgstr ""
+
+#. translators: count.
+#: functions.php:33
+#, php-format
+msgid "Shipment Arrival <span class=\"count\">(%s)</span>"
+msgid_plural "Shipment Arrival <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: count.
+#: functions.php:42
+#, php-format
+msgid "Shipment in Transit <span class=\"count\">(%s)</span>"
+msgid_plural "Shipment in Transit <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:123
+msgid "Nearest office"
+msgstr ""
+
+#: functions.php:128 templates/order.tpl.php:206
+msgid "Choose one..."
+msgstr ""
+
+#: functions.php:206 templates/order.tpl.php:98
+msgid "Identification number type"
+msgstr ""
+
+#: functions.php:216 templates/order.tpl.php:112
+msgid "Identification number"
+msgstr ""
+
+#: functions.php:227 templates/order.tpl.php:158
+msgid "Mobile Phone Area Code"
+msgstr ""
+
+#: functions.php:236 templates/order.tpl.php:162
+msgid "Mobile Phone (No Area Code)"
+msgstr ""
+
+#: functions.php:247 functions.php:260 templates/order.tpl.php:146
+msgid "Height (Enter numbers only)"
+msgstr ""
+
+#: functions.php:273 functions.php:286 templates/order.tpl.php:150
+msgid "Floor"
+msgstr ""
+
+#: functions.php:299 functions.php:312 templates/order.tpl.php:154
+msgid "Apartment"
+msgstr ""
+
+#: functions.php:331
+msgid "Street"
+msgstr ""
+
+#: functions.php:332 templates/order.tpl.php:138
+msgid "Street name"
+msgstr ""
+
+#: functions.php:333 functions.php:334 templates/order.tpl.php:142
+msgid "Detail (Between-streets, etc)"
+msgstr ""
+
+#: functions.php:421
+msgid "days"
+msgstr ""
+
+#: functions.php:422
+msgid "Your shopping cart is empty"
+msgstr ""
+
+#: functions.php:423
+msgid "No carriers found"
+msgstr ""
+
+#: functions.php:424
+msgid "Product not found"
+msgstr ""
+
+#: functions.php:425
+msgid "Server error"
+msgstr ""
+
+#: functions.php:426
+msgid "Loading..."
+msgstr ""
+
+#: functions.php:427
+msgid "The plugin is not configured correctly..."
+msgstr ""
+
+#. translators: Office.
+#: functions.php:563 functions.php:574 functions.php:638 functions.php:649
+#, php-format
+msgid "Office: %1$s"
+msgstr ""
+
+#: functions.php:680
+msgid "Shipping"
+msgstr ""
+
+#: includes/class-kshippingargentina-api.php:169
+msgid "Cities not found..."
+msgstr ""
+
+#: includes/class-kshippingargentina-api.php:443
+#: includes/class-kshippingargentina-api.php:448
+msgid "User or Password of Andreani is invalid"
+msgstr ""
+
+#: includes/class-kshippingargentina-api.php:487
+#: includes/class-kshippingargentina-api.php:532
+#: includes/data-settings-shipping.php:46
+msgid "Andreani"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:64
+msgid "Admin: New tracking code assigned"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:67
+#: includes/class-wc-knewtracking-customer-email.php:59
+msgid ""
+"Send an email to the customer with the tracking number assigned to an order"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:70
+#: includes/class-wc-knewtracking-admin-email.php:71
+#: includes/class-wc-knewtracking-customer-email.php:62
+#: includes/class-wc-knewtracking-customer-email.php:63
+msgid "#{order_id} Tracking code generated"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:72
+msgid ""
+"A tracking code has been created for the order #{order_id}, if you want to "
+"track it follow this link: {link}. If you want to download the PDF you can do "
+"it through this link: {label_link}"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:156
+msgid "There were problems downloading the labels."
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:251
+#: includes/class-wc-knewtracking-customer-email.php:226
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:253
+#: includes/class-wc-knewtracking-customer-email.php:228
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:257
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s email example.
+#: includes/class-wc-knewtracking-admin-email.php:260
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:265
+#: includes/class-wc-knewtracking-customer-email.php:232
+msgid "Subject"
+msgstr ""
+
+#. translators: %s email example.
+#: includes/class-wc-knewtracking-admin-email.php:268
+#: includes/class-wc-knewtracking-customer-email.php:235
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject: "
+"<code>%s</code>."
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:273
+#: includes/class-wc-knewtracking-customer-email.php:240
+msgid "Email Heading"
+msgstr ""
+
+#. translators: %s email example.
+#: includes/class-wc-knewtracking-admin-email.php:277
+#: includes/class-wc-knewtracking-customer-email.php:244
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. Leave "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: includes/class-wc-knewtracking-admin-email.php:284
+#: includes/class-wc-knewtracking-customer-email.php:251
+msgid "Message"
+msgstr ""
+
+#: includes/class-wc-knewtracking-customer-email.php:56
+msgid "Customer: New tracking code assigned"
+msgstr ""
+
+#: includes/class-wc-knewtracking-customer-email.php:64
+msgid ""
+"Your tracking code for the order #{order_id} has been created. The link to "
+"track your package is as follows: {link}"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-manager.php:42
+msgid "Shipping for Argentina"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:258
+msgid "Correo Argentino/Andreani/OCA e-Pak"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:259
+msgid "Use a shipping company from Argentina in this area"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:428
+msgid "Argentina have to be the country of origin."
+msgstr ""
+
+#. translators: %s Product ID.
+#: includes/class-wc-kshippingargentina-shipping.php:686
+#, php-format
+msgid "Product #%s is virtual. Skipping."
+msgstr ""
+
+#. translators: Min and max days of delay.
+#: includes/class-wc-kshippingargentina-shipping.php:935
+#, php-format
+msgid "%1$d to %2$d days"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:980
+msgid "- Free Shipping"
+msgstr ""
+
+#. translators: ISO Currency.
+#: includes/class-wc-kshippingargentina-shipping.php:1004
+msgid "Argentina Shipping"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:1004
+#, php-format
+msgid ""
+"You currency <code>%s</code> can not be supported. Please use ARS or USD."
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:1068
+msgid "Select all"
+msgstr ""
+
+#: includes/class-wc-kshippingargentina-shipping.php:1068
+msgid "Select none"
+msgstr ""
+
+#: includes/data-settings-manager.php:23
+msgid "Enable / Disable"
+msgstr ""
+
+#: includes/data-settings-manager.php:25
+msgid "Enable Shipping Argentina"
+msgstr ""
+
+#: includes/data-settings-manager.php:29
+msgid "API Host"
+msgstr ""
+
+#: includes/data-settings-manager.php:34
+msgid "API Key or Yipi License Key"
+msgstr ""
+
+#: includes/data-settings-manager.php:36
+msgid "Get this in https://yipi.app/p/membresia/"
+msgstr ""
+
+#: includes/data-settings-manager.php:40
+msgid "Andreani API Username (Optional)"
+msgstr ""
+
+#: includes/data-settings-manager.php:42 includes/data-settings-manager.php:54
+#: includes/data-settings-manager.php:60
+msgid "Optional, only for generation of label"
+msgstr ""
+
+#: includes/data-settings-manager.php:46
+msgid "Andreani API Password (Optional)"
+msgstr ""
+
+#: includes/data-settings-manager.php:48
+msgid "Only for generation of label"
+msgstr ""
+
+#: includes/data-settings-manager.php:52
+msgid "OCA e-Pak API Username (Optional)"
+msgstr ""
+
+#: includes/data-settings-manager.php:58
+msgid "OCA e-Pak API Password (Optional)"
+msgstr ""
+
+#: includes/data-settings-manager.php:64
+msgid "OCA collections time slot"
+msgstr ""
+
+#: includes/data-settings-manager.php:68
+msgid "8:00 - 17:00"
+msgstr ""
+
+#: includes/data-settings-manager.php:69
+msgid "8:00 - 12:00"
+msgstr ""
+
+#: includes/data-settings-manager.php:70
+msgid "14:00 - 17:00"
+msgstr ""
+
+#: includes/data-settings-manager.php:75
+msgid "Sender Post Code"
+msgstr ""
+
+#: includes/data-settings-manager.php:81
+msgid "State of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:88
+msgid "City of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:95
+msgid "Street of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:102
+msgid "Number of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:109
+msgid "Floor of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:116
+msgid "Apartment of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:123
+msgid "Detalle (Entre-calles, etc)"
+msgstr ""
+
+#: includes/data-settings-manager.php:130
+msgid "Full name of sender (Or company name)"
+msgstr ""
+
+#: includes/data-settings-manager.php:137
+msgid "DNI type of sender (Only for Andreani)"
+msgstr ""
+
+#: includes/data-settings-manager.php:141
+msgid "DNI"
+msgstr ""
+
+#: includes/data-settings-manager.php:142
+msgid "CUIT"
+msgstr ""
+
+#: includes/data-settings-manager.php:143
+msgid "CUIL"
+msgstr ""
+
+#: includes/data-settings-manager.php:147
+msgid "DNI of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:154
+msgid "Phone of sender"
+msgstr ""
+
+#: includes/data-settings-manager.php:161
+msgid "E-Mail of sender"
+msgstr ""
+
+#. translators: %s Unit weight.
+#: includes/data-settings-manager.php:169
+#, php-format
+msgid "Weight default product (In %s)"
+msgstr ""
+
+#: includes/data-settings-manager.php:171
+msgid "Only numbers value, for example: 0.1"
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-manager.php:177
+#, php-format
+msgid "Width default product (In %s)"
+msgstr ""
+
+#: includes/data-settings-manager.php:179 includes/data-settings-manager.php:187
+#: includes/data-settings-manager.php:195
+msgid "Only numbers value, for example: 10"
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-manager.php:185
+#, php-format
+msgid "Height default product (In %s)"
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-manager.php:193
+#, php-format
+msgid "Depth default product (In %s)"
+msgstr ""
+
+#: includes/data-settings-manager.php:200
+msgid "Do not change to \"In Transit\""
+msgstr ""
+
+#: includes/data-settings-manager.php:202
+msgid ""
+"Deactivate automatic status change to \"In Transit\" when creating the guide."
+msgstr ""
+
+#. translators: %1$s currency origin -  %2$s currency destination.
+#: includes/data-settings-manager.php:207
+#, php-format
+msgid "Enable %1$s to %2$s conversion"
+msgstr ""
+
+#: includes/data-settings-manager.php:209
+msgid "Activate the plugin by converting the amounts to the gateway currency"
+msgstr ""
+
+#: includes/data-settings-manager.php:212
+msgid "Disable module"
+msgstr ""
+
+#: includes/data-settings-manager.php:213
+msgid "Use the official conversion rate"
+msgstr ""
+
+#: includes/data-settings-manager.php:214 includes/data-settings-manager.php:221
+msgid "Use a manual conversion rate"
+msgstr ""
+
+#. translators: %1$s currency origin -  %2$s currency destination.
+#: includes/data-settings-manager.php:219
+#, php-format
+msgid "Convert using manual rate from %1$s to %2$s"
+msgstr ""
+
+#: includes/data-settings-manager.php:225
+msgid "Meta-key for DNI"
+msgstr ""
+
+#: includes/data-settings-manager.php:227 includes/data-settings-manager.php:234
+#: includes/data-settings-manager.php:241 includes/data-settings-manager.php:248
+#: includes/data-settings-manager.php:255 includes/data-settings-manager.php:262
+#: includes/data-settings-manager.php:269 includes/data-settings-manager.php:276
+msgid "If you don't specify it, the plugin adds it to the checkout form."
+msgstr ""
+
+#: includes/data-settings-manager.php:232
+msgid "Meta-key for Phone"
+msgstr ""
+
+#: includes/data-settings-manager.php:239
+msgid "Meta-key for Altura (Billing Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:246
+msgid "Meta-key for Altura (Shipping Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:253
+msgid "Meta-key for Aparment (Billing Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:260
+msgid "Meta-key for Aparment (Shipping Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:267
+msgid "Meta-key for Floor (Billing Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:274
+msgid "Meta-key for Floor (Shipping Address)"
+msgstr ""
+
+#: includes/data-settings-manager.php:281
+msgid "Debug"
+msgstr ""
+
+#: includes/data-settings-manager.php:283
+msgid "Enable log"
+msgstr ""
+
+#: includes/data-settings-manager.php:285
+msgid "See in WooCommerce logs"
+msgstr ""
+
+#: includes/data-settings-shipping.php:15
+msgid "Not founded offices in your postcode."
+msgstr ""
+
+#: includes/data-settings-shipping.php:32
+msgid "Input name for this Courier"
+msgstr ""
+
+#: includes/data-settings-shipping.php:34
+msgid "Enter the name for this courier"
+msgstr ""
+
+#: includes/data-settings-shipping.php:35 includes/data-settings-shipping.php:44
+msgid "Correo Argentino"
+msgstr ""
+
+#: includes/data-settings-shipping.php:39
+msgid "Service Type"
+msgstr ""
+
+#: includes/data-settings-shipping.php:41
+msgid "Select you shipping company."
+msgstr ""
+
+#: includes/data-settings-shipping.php:45
+msgid "OCA e-Pak"
+msgstr ""
+
+#: includes/data-settings-shipping.php:51
+msgid "Type"
+msgstr ""
+
+#: includes/data-settings-shipping.php:53
+msgid "Type of shipping."
+msgstr ""
+
+#: includes/data-settings-shipping.php:56
+msgid "Delivery in Door"
+msgstr ""
+
+#: includes/data-settings-shipping.php:57
+msgid "Delivery in Office"
+msgstr ""
+
+#: includes/data-settings-shipping.php:62
+msgid "Office of Origin"
+msgstr ""
+
+#: includes/data-settings-shipping.php:64
+msgid "Select your office of origin."
+msgstr ""
+
+#: includes/data-settings-shipping.php:70
+msgid "Type of product, operation or contract number"
+msgstr ""
+
+#: includes/data-settings-shipping.php:72 includes/data-settings-shipping.php:79
+msgid "Input \"CP\" in Correo Argentino case"
+msgstr ""
+
+#: includes/data-settings-shipping.php:77
+msgid "Client Number"
+msgstr ""
+
+#: includes/data-settings-shipping.php:84
+msgid "CUIT (Only for OCA e-Pak)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:86
+msgid "Only for OCA e-Pak"
+msgstr ""
+
+#: includes/data-settings-shipping.php:91
+msgid "Enable Insurance"
+msgstr ""
+
+#: includes/data-settings-shipping.php:95
+msgid ""
+"Does this carrier pick up the package at your store? (Only for Andreani/OCA e-"
+"Pak)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:99
+msgid "Insurance Percentage (Only for Correo Argentino)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:101
+msgid ""
+"If the shipments are Insured, enter the Insurance Percentage here (Only for "
+"Correo Argentino)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:106
+msgid "Delivery time (If the service does not provide it)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:108
+msgid "Enter the approximate delivery time of this transport"
+msgstr ""
+
+#: includes/data-settings-shipping.php:109
+msgid "4 - 7 days"
+msgstr ""
+
+#: includes/data-settings-shipping.php:113
+msgid "Velocity"
+msgstr ""
+
+#: includes/data-settings-shipping.php:115
+msgid "Select the velocity (Only for Correo Argentino)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:118
+msgid "Classic"
+msgstr ""
+
+#: includes/data-settings-shipping.php:119
+msgid "Express"
+msgstr ""
+
+#: includes/data-settings-shipping.php:124
+msgid "Fiscal Type"
+msgstr ""
+
+#: includes/data-settings-shipping.php:126
+msgid ""
+"Select the type of fiscal price that will be charged (Only for Correo "
+"Argentino)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:129
+msgid "Responsable Inscrito (Only available with Correo Argentino)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:130
+msgid "Monotributista y Consumidor Final"
+msgstr ""
+
+#: includes/data-settings-shipping.php:135
+msgid "Add a fee value of shipping cost for all orders"
+msgstr ""
+
+#: includes/data-settings-shipping.php:137
+msgid "Add this fee cost to courier amount."
+msgstr ""
+
+#: includes/data-settings-shipping.php:142
+msgid "Add a fee percent of shipping cost for all orders"
+msgstr ""
+
+#: includes/data-settings-shipping.php:144
+msgid "Add this fee percent cost to courier amount."
+msgstr ""
+
+#: includes/data-settings-shipping.php:149
+msgid "Minimum value of shipping cost for all orders"
+msgstr ""
+
+#: includes/data-settings-shipping.php:151
+msgid ""
+"If the cost of courier is less than the amount established here, the customer "
+"will only be charged this amount."
+msgstr ""
+
+#: includes/data-settings-shipping.php:156
+msgid "Maximum value of shipping cost for all orders"
+msgstr ""
+
+#: includes/data-settings-shipping.php:158
+msgid ""
+"If the cost of courier is greater than the amount established here, the "
+"customer will only be charged this amount."
+msgstr ""
+
+#: includes/data-settings-shipping.php:163
+msgid "Exclude if exists any product from the following categories"
+msgstr ""
+
+#: includes/data-settings-shipping.php:165
+msgid ""
+"This option allows you to disable if the order contains any products from "
+"these selected categories."
+msgstr ""
+
+#: includes/data-settings-shipping.php:169
+msgid "Exclude for following States"
+msgstr ""
+
+#: includes/data-settings-shipping.php:171
+msgid "This option allows you to deactivate for this states."
+msgstr ""
+
+#: includes/data-settings-shipping.php:175
+msgid "Minimum amount of Cart to activate courier"
+msgstr ""
+
+#: includes/data-settings-shipping.php:177
+msgid ""
+"Deactivate if order amount is less to this value. (leave in 0 for ignore)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:182
+msgid "Maximum amount of Cart to activate courier"
+msgstr ""
+
+#: includes/data-settings-shipping.php:184
+msgid ""
+"Deactivate if order amount is greater to this value. (leave in 0 for ignore)"
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-shipping.php:190
+#, php-format
+msgid "Minimum weight of Cart to activate courier (In %s)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:192
+msgid ""
+"Deactivate if weight of order is less to this value. (leave in 0 for ignore)"
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-shipping.php:198
+#, php-format
+msgid "Maximum weight of Cart to activate courier (In %s)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:200
+msgid ""
+"Deactivate if weight of order is greater to this value. (leave in 0 for "
+"ignore)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:205
+msgid "Minimum amount of Cart to activate the Discount Shipping"
+msgstr ""
+
+#: includes/data-settings-shipping.php:207
+#: includes/data-settings-shipping.php:214
+msgid "This option allows to apply a discount in the cost of shipping."
+msgstr ""
+
+#: includes/data-settings-shipping.php:212
+msgid "Minimum weight of order to activate the Discount Shipping"
+msgstr ""
+
+#: includes/data-settings-shipping.php:219
+msgid "Percent of discount in the shipping cost"
+msgstr ""
+
+#: includes/data-settings-shipping.php:221
+#: includes/data-settings-shipping.php:228
+msgid ""
+"This option works only if the shipping cost (and weight) of courier is "
+"greater of \"Minimum amount (and weight) of Cart to activate the Discount "
+"Shipping\". Leave in 0 to disable this option."
+msgstr ""
+
+#: includes/data-settings-shipping.php:226
+msgid "Amount of discount in the shipping cost"
+msgstr ""
+
+#: includes/data-settings-shipping.php:233
+msgid "Hide estimated delivery time label"
+msgstr ""
+
+#: includes/data-settings-shipping.php:235
+msgid "Hide delay label"
+msgstr ""
+
+#: includes/data-settings-shipping.php:239
+msgid "Enable Shipping Argentina for Free Shipping"
+msgstr ""
+
+#: includes/data-settings-shipping.php:241
+msgid "Activate this method for Free Shipping"
+msgstr ""
+
+#: includes/data-settings-shipping.php:245
+msgid "Free Shipping Mode"
+msgstr ""
+
+#: includes/data-settings-shipping.php:247
+#: includes/data-settings-shipping.php:261
+#: includes/data-settings-shipping.php:270
+msgid "This option works only if \"Free Shipping\" is activated."
+msgstr ""
+
+#: includes/data-settings-shipping.php:251
+msgid ""
+"Use \"Free Shipping\" if a free shipping coupon is applied (The following "
+"criteria are ignored)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:252
+msgid ""
+"Use \"Free Shipping\" if there is a free shipping coupon applied and if the "
+"following criteria are met"
+msgstr ""
+
+#: includes/data-settings-shipping.php:253
+msgid ""
+"Use \"Free Shipping\" if there is a free shipping coupon applied or if the "
+"following criteria are met"
+msgstr ""
+
+#: includes/data-settings-shipping.php:254
+msgid ""
+"Use \"Free Shipping\" automatically only if you meet any of the following "
+"criteria (applied coupons are ignored)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:259
+msgid "Cart minimum amount to activate the Free Shipping"
+msgstr ""
+
+#: includes/data-settings-shipping.php:262
+#: includes/data-settings-shipping.php:271
+msgid ""
+"This option works only if you have enabled courier for Free Shipping. Leave "
+"to 0 to apply free shipping all orders."
+msgstr ""
+
+#. translators: %s Unit dimension.
+#: includes/data-settings-shipping.php:268
+#, php-format
+msgid "Cart minimum weight to activate the Free Shipping (In %s)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:276
+msgid "Free shipping for the following States (Leave empty for all)"
+msgstr ""
+
+#: includes/data-settings-shipping.php:278
+msgid "This option allows free shipping by courier in some states."
+msgstr ""
+
+#: templates/order.tpl.php:34
+msgid ""
+"Assign tracking codes manually, if there is more than one, separate them with "
+"the comma character (,)"
+msgstr ""
+
+#: templates/order.tpl.php:37 templates/order.tpl.php:73
+#: templates/order.tpl.php:275
+msgid "Loading"
+msgstr ""
+
+#: templates/order.tpl.php:38 templates/order.tpl.php:40
+msgid "Save tracking codes"
+msgstr ""
+
+#: templates/order.tpl.php:49
+msgid "Tracking Code"
+msgstr ""
+
+#: templates/order.tpl.php:50
+msgid "Label"
+msgstr ""
+
+#: templates/order.tpl.php:61
+msgid ""
+"Failed to download the PDF of the generated tracking code, activate the "
+"module log for more details or contact your service provider."
+msgstr ""
+
+#: templates/order.tpl.php:74 templates/order.tpl.php:77
+msgid "Discard labels and generate new ones"
+msgstr ""
+
+#: templates/order.tpl.php:76
+msgid ""
+"This action is IRREVERSIBLE, are you sure you want to DELETE the current "
+"labels?"
+msgstr ""
+
+#: templates/order.tpl.php:84
+msgid "Customer Address"
+msgstr ""
+
+#: templates/order.tpl.php:86
+msgid "Full name"
+msgstr ""
+
+#: templates/order.tpl.php:90
+msgid "First name"
+msgstr ""
+
+#: templates/order.tpl.php:94
+msgid "Last name"
+msgstr ""
+
+#: templates/order.tpl.php:116
+msgid "State"
+msgstr ""
+
+#: templates/order.tpl.php:130
+msgid "City"
+msgstr ""
+
+#: templates/order.tpl.php:134
+msgid "Postcode"
+msgstr ""
+
+#: templates/order.tpl.php:166
+msgid "Other Phone"
+msgstr ""
+
+#: templates/order.tpl.php:170
+msgid "E-mail"
+msgstr ""
+
+#: templates/order.tpl.php:175
+msgid "Carrier Information"
+msgstr ""
+
+#: templates/order.tpl.php:178
+msgid "Origin Postcode"
+msgstr ""
+
+#: templates/order.tpl.php:182
+msgid "Origin Office"
+msgstr ""
+
+#: templates/order.tpl.php:199
+msgid "Destination Office"
+msgstr ""
+
+#: templates/order.tpl.php:202
+msgid ""
+"No offices available, please change the Postcode destination and save change."
+msgstr ""
+
+#: templates/order.tpl.php:225
+msgid "Boxes"
+msgstr ""
+
+#: templates/order.tpl.php:228 templates/order.tpl.php:256
+msgid "Remove"
+msgstr ""
+
+#: templates/order.tpl.php:233
+msgid "Box"
+msgstr ""
+
+#: templates/order.tpl.php:242
+msgid "Weight (In KG)"
+msgstr ""
+
+#: templates/order.tpl.php:246
+msgid "Contents"
+msgstr ""
+
+#: templates/order.tpl.php:250
+msgid "Total Cost (In ARS)"
+msgstr ""
+
+#: templates/order.tpl.php:267
+msgid "Add new box"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Description of the plugin/theme
+msgid "Carriers of Argentina for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.kijam.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kijam López"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/kijamve/carriers-of-argentina-for-woocommerce"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Shipping for Argentina"
+#~ msgid "Shipping Argentina"
+#~ msgstr "Envíos para Argentina"
+
+#~ msgid "Enable Correo Argentino"
+#~ msgstr "Habilitar Correo Argentino"
+
+#~ msgid "Hide delay label for Correo Argentino"
+#~ msgstr "Ocultar etiqueta de tiempo estimado de entrega"
